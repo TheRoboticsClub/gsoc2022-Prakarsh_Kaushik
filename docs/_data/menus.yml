@@ -1,0 +1,15 @@
+- title: home
+  url: /gsoc2022-Prakarsh_Kaushik
+  external: false
+
+- title: about author
+  url: /gsoc2022-Prakarsh_Kaushik/about/
+  external: false
+
+- title: jderobot academy
+  url: https://jderobot.github.io/
+  external: true # set true if you using external link, see bellow
+
+- title: github repo
+  url: https://github.com/TheRoboticsClub/gsoc2022-Prakarsh_Kaushik
+  external: true
