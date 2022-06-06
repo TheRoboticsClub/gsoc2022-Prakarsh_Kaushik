@@ -24,8 +24,8 @@ author:
 
 # Url settings
 url: "https://theroboticsclub.github.io"
-baseurl: "/gsoc2022-Prakarsh_Kaushik"
-permalink: /title/
+baseurl: #"/gsoc2022-Prakarsh_Kaushik"
+permalink: 
 google_analytics: UA-126403543-4
 fb_appid:
 
