@@ -2,7 +2,7 @@
 title: Community Bonding Period
 date: 2022-05-27 20:00:00 +0530
 tags: [simulators]
-permalink: /:title
+permalink: /community-bonding
 description: Exploring and spreading out the choices for the improvement in frontend and backend for the drone based exercises.
 ---
 
