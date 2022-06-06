@@ -5,7 +5,7 @@ description: >-
   exercises for Jderobot Robotics Academy <br>
   <b><a href="https://summerofcode.withgoogle.com/programs/2022/projects/RJd3bxAY" target="_blank" rel="noopener">Project #2</a></b> <br>
 lang: en-US
-timezone: Europe/Berlin
+timezone: Asia/Kolkata
 image: /assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/TheRoboticsClub/gsoc2022-Prakarsh_Kaushik
 mode: light # default theme "dark" | "light"
@@ -18,15 +18,14 @@ author:
     <b><a href="https://summerofcode.withgoogle.com/programs/2022/projects/RJd3bxAY" target="_blank" rel="noopener">Project #2</a></b> <br>
     Consolidation of drone based <br>
     exercises for Jderobot Robotics Academy <br>
-    
-    
   username: prakarshkaushik
   email: prakarshkaushik369@gmail.com
   avatar: assets/img/logo.png
 
 # Url settings
 url: "https://theroboticsclub.github.io"
-baseurl: "/gsoc2022-Prakarsh_Kaushik"
+baseurl: #"/gsoc2022-Prakarsh_Kaushik"
+permalink: /:title/
 google_analytics: UA-126403543-4
 fb_appid:
 
@@ -78,6 +77,10 @@ exclude:
   - README.md
   - node_modules
   - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
 
 # Plugins
 plugins:

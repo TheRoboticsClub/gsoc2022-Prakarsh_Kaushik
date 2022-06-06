@@ -7,7 +7,27 @@ layout: compress
 
 {% include header.html %}
 
-<body>
+<body data-theme="{{ site.mode }}" class="notransition">
+
+  <script>
+    const body = document.body;
+    const data = body.getAttribute("data-theme");
+
+    const initTheme = (state) => {
+      if (state === "dark") {
+        body.setAttribute("data-theme", "dark");
+      } else if (state === "light") {
+        body.removeAttribute("data-theme");
+      } else {
+        localStorage.setItem("theme", data);
+      }
+    };
+ 
+    initTheme(localStorage.getItem("theme"));
+    
+    setTimeout(() => body.classList.remove("notransition"), 75);
+  </script>
+
   {% include navbar.html %}
   <div class="wrapper post">
     <main class="page-content" aria-label="Content">
@@ -20,7 +40,7 @@ layout: compress
             <span itemprop="keywords">
               {% for tag in tags %}
               <a class="tag"
-                href="/gsoc2022-Prakarsh_Kaushik/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
+                href="/tags/#{{tag | downcase | slugify}}">{{tag | upcase }}</a>{% unless forloop.last %},{% endunless %}
               {% endfor %}
             </span>
           </div>
@@ -48,26 +68,27 @@ layout: compress
           {% include anchor_headings.html html=content anchorClass="anchor-head" beforeHeading=true h_min=1 h_max=4 %}
           {% if page.tweet %}
           <p>Comments this article on 
-            <a href="https://twitter.com/{{site.username}}/status/{{page.tweet}}">Twitter</a>.
+            <a href="https://twitter.com/{{site.twitter}}/status/{{page.tweet}}">Twitter</a>.
           </p>
           {% endif %}
         </div>
       </article>
+    
       {% if page.comments %}
-        {% include comments.html%}
+        {% include comments.html %}
       {% endif %}
 
     </main>
+
     {% if page.modified %}
       <small class="post-updated-at">updated_at {{page.modified | date: "%d-%m-%Y"}}</small>
     {% endif %}
     {% if page.next or page.previous %}
       {% include navigation.html %}
     {% endif %}
+
+    {% include footer.html %}
   </div>
-
-  {% include footer.html %}
-
 </body>
 
 </html>
