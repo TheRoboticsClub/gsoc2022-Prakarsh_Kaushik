@@ -1,9 +1,9 @@
 - title: Home
-  url: /gsoc2022-Prakarsh_Kaushik/
+  url: /
   external: false
 
 - title: About author
-  url: /gsoc2022-Prakarsh_Kaushik/about/
+  url: /about/
   external: false
 
 - title: Jderobot Robotics Academy
@@ -15,5 +15,5 @@
   external: true
 
 - title: Archive
-  url: /gsoc2022-Prakarsh_Kaushik/archive/
+  url: /archive/
   external: false

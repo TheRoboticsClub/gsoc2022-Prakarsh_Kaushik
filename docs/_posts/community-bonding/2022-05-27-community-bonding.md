@@ -1,8 +1,9 @@
 ---
+layout: post
 title: Community Bonding Period
 date: 2022-05-27 20:00:00 +0530
 tags: [simulators]
-permalink: /gsoc2022-Prakarsh_Kaushik/community-bonding/
+# permalink: /community-bonding/
 description: Exploring and spreading out the choices for the improvement in frontend and backend for the drone based exercises.
 ---
 

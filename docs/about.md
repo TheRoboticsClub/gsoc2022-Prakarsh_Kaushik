@@ -1,6 +1,6 @@
 ---
 title: Prakarsh Kaushik
-permalink: /gsoc2022-Prakarsh_Kaushik/about/
+permalink: /about/
 layout: page
 excerpt: >-
     Prakarsh is currently a senior at Ajay Kumar Garg Engineering College, pursuing Electronics and Instrumentation Engineering as his major. His research interests include Reinforcement Learning, Deep Learning, Autonomous Systems, and Embodied AI.

@@ -12,7 +12,7 @@ mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  sitename: Google Summer of Code '22 Blog <br>
+  # sitename: Google Summer of Code '22 Blog <br>
   name: Prakarsh Kaushik
   bio: >-
     <b><a href="https://summerofcode.withgoogle.com/programs/2022/projects/RJd3bxAY" target="_blank" rel="noopener">Project #2</a></b> <br>
@@ -23,10 +23,10 @@ author:
   avatar: assets/img/logo.png
 
 # Url settings
-url: "https://theroboticsclub.github.io"
-baseurl: "/gsoc2022-Prakarsh_Kaushik"
-permalink: 
-google_analytics: UA-126403543-4
+url: https://theroboticsclub.github.io
+# baseurl: /gsoc2022-Prakarsh_Kaushik
+permalink: /:title/ 
+google_analytics: #UA-126403543-4
 fb_appid:
 
 # Collection setting
