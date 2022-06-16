@@ -1,0 +1,19 @@
+<div class="author-box">
+    {% if site.avatar_source == "github" and site.github_username %}
+        {% capture avatar_image %}
+            https://github.com/{{ site.github_username }}.png
+        {% endcapture %}
+    {% elsif site.avatar_source == "local" and site.avatar_path %}
+        {% capture avatar_image %}
+            {{site.avatar_path}}
+        {% endcapture %}
+    {% elsif site.plugins contains "liquid-md5" %}
+        {% capture avatar_image %}
+        https://s.gravatar.com/avatar/ce11d5117c2443af383ca0ed5376a7a1?s=80  <!-- gravatar link -->
+        {% endcapture %}
+    {% endif %}
+    {% if avatar_image %}
+        <img src="{{ avatar_image }}" class="author-avatar" alt="Avatar" />
+    {% endif %}
+{{ site.description }}
+</div>

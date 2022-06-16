@@ -1,0 +1,94 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: GSoC 2022 Blog | JdeRobot
+subtitle:
+lang: en-US
+timezone: Asia/Kolkata
+author: Prakarsh Kaushik
+email: prakarshkaushik369@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Prakarsh is currently a senior at Ajay Kumar Garg Engineering College, 
+  pursuing Electronics and Instrumentation Engineering as his major. 
+  His research interests include Reinforcement Learning, Deep Learning, Autonomous Systems, 
+  and Embodied AI.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+baseurl: "/gsoc2022-Prakarsh_Kaushik1" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+paginate: 4
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  # the way how dates should be displayed
+  date_format: "%b %-d, %Y"
+
+  # (optional) discqus comment configuration
+  # disqus:
+  #   shortname: bitbrain-github-io
+
+  
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://www.linkedin.com/in/prakarshkaushik369/
+      icon: linkedin
+      color: red
+    - url: https://github.com/RUFFY-369
+      icon: github-square
+      color: purple
+    - url: https://twitter.com/KaushikPrakarsh
+      icon: twitter-square
+      color: cyan
+    
+  # avatar_source: local
+  # avatar_path: "/avatar.gif"
+
+
+  # whether the author box should be displayed
+  show_author: true
+
+  # the animation speed of the scroll-in effect
+  animation_speed: 50
+
+  # wether to enable Right-to-Left support or not
+  rtl: false
+# sass:
+#     style: compressed
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+# remote_theme: bitbrain/jekyll-dash@v2.3.3
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
