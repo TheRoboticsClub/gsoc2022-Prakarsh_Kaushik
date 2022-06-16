@@ -2,7 +2,7 @@
 layout: post
 title: Beginning of GSoC 2022 @JdeRobot
 date: 2022-05-21 00:00:00 +05:30
-tags: [GSoC, beginning, robotics academy]
+tags: [GSoC, beginning, robotics_academy]
 # permalink: /beginning/
 description: Beginning of GSoC Journey
 ---
