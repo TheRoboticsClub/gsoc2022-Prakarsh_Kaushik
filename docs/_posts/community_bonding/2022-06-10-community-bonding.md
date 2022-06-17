@@ -13,3 +13,11 @@ description: Integrated timeline
 
 
 ![Calendar]({{ site.baseurl }}/assets/blog_images/community_bonding/Project_Timeline.jpg){: .align-center}
+
+## **Testing Rotors**
+
+- **Most of the packages open sourced ported to noetic have build errors as follows:**
+
+![build error]({{ site.baseurl }}/assets/blog_images/community_bonding/build_error.png){: .align-center}
+
+- **Solution can be to update the files myself**
