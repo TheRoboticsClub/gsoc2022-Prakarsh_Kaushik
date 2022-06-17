@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Community Bonding Period
+title: Community Bonding Period Begins
 date: 2022-05-27 20:00:00 +0530
 tags: [GSoC, simulators, robotics_academy, exercises, backend, frontend]
 # permalink: /community-bonding/
