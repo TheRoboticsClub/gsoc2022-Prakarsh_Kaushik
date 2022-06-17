@@ -9,7 +9,7 @@ description: Chosen deliverables from the presented choices in the meeting.
 
 # **Community Bonding 2**
 
-> *The next goal of the community bonding period was to layout the chosen deliverables after discussion in the meeting with the mentors. This choice is based in the goals of the organisation as well which ones would I like to work on. The choice is made because of the limited period of coding and so much to contribute on. For the choices regarding the deliverables, please refer to the previous community bonding* [post.](https://theroboticsclub.github.io/gsoc2022-Prakarsh_Kaushik/2022/05/27/community-bonding.html) The calendar is presented with integrated timeline for the selected 
+> *The next goal of the community bonding period was to layout the chosen deliverables after discussion in the meeting with the mentors. This choice is based in the goals of the organisation as well which ones would I like to work on. The choice is made because of the limited period of coding and so much to contribute on. For the choices regarding the deliverables, please refer to the previous community bonding* [post.](https://theroboticsclub.github.io/gsoc2022-Prakarsh_Kaushik/2022/05/27/community-bonding.html) 
 
 
 ## **Decision time?!**
