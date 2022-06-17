@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dusk of the Bonding  
-date: 2022-06-03 20:00:00 +0530
+date: 2022-06-10 20:00:00 +0530
 tags: [robotics_academy, exercises, backend, frontend]
 # permalink: /community-bonding/
 description: Integrated timeline
