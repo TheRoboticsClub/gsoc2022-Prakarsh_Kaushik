@@ -12,4 +12,4 @@ description: Integrated timeline
 > *The calendar is presented with integrated timeline for the selected deliverables down below* 
 
 
-![Calendar]({{ site.baseurl }}/assets/blog_images/community_bonding/Project#2_GSoC_JdeRobot-Project Timeline.jpg){: .align-center}
+![Calendar]({{ site.baseurl }}/assets/blog_images/community_bonding/Project_Timeline.jpg){: .align-center}
