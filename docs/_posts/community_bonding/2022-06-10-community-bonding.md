@@ -18,6 +18,10 @@ description: Integrated timeline
 
 - **Most of the packages open sourced ported to noetic have build errors as follows:**
 
-![build error]({{ site.baseurl }}/assets/blog_images/community_bonding/build_error.png){: .align-center}
+![build error1]({{ site.baseurl }}/assets/blog_images/community_bonding/build_error1.png){: .align-center}
+
+![build error2]({{ site.baseurl }}/assets/blog_images/community_bonding/build_error2.png){: .align-center}
+
+![build error3]({{ site.baseurl }}/assets/blog_images/community_bonding/build_error3.png){: .align-center}
 
 - **Solution can be to update the files myself**
