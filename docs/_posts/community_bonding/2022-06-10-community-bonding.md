@@ -25,3 +25,7 @@ description: Integrated timeline
 ![build error3]({{ site.baseurl }}/assets/blog_images/community_bonding/build_error3.png){: .align-center}
 
 - **Solution can be to update the files myself**
+
+- *Update*
+
+Solved by dependencies resolving of mavlink & mavcomm package
