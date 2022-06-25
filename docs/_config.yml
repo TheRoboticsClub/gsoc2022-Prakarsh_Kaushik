@@ -29,7 +29,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 baseurl: "/gsoc2022-Prakarsh_Kaushik" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-paginate: 4
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 tag_permalink_style: pretty
